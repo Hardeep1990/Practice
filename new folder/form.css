@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+input {
+    width: 40%;
+  }
+  label {
+    font-family: 'Tahoma';
+  }
+  /* 1. Element selector (aka type selector) */
+  input {
+    width: 40%;
+  }
+  label {
+    font-family: 'Tahoma';
+  }
+  /* 2. Attribute selector */
+  input[type="month"] {
+    background-color: aquamarine;
+  }
+  /* 3. Universal selector */
+  * {
+    border: dashed red 1px;
+  }
+  /* 
+   4.
+  .classname {
+  }
+  5. 
+  #idName {
+  } 
+  

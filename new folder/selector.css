@@ -1,0 +1,39 @@
+body{
+  background-color: beige;
+}
+    label,
+input {
+  font-family: Impact;
+  color: rebeccapurple;
+}
+ @font-face {
+    font-family: 'CustomFont';
+    src: url('punk_kid.ttf');
+  }
+  font-family: 'CustomFont';
+p{
+  background-color: aqua;
+  color: beige;
+}
+div>p{
+  background-color: aqua;
+  color: beige;
+}
+section p 
+{
+  color: aquamarine;
+  background-color: blue;
+}
+input[type='text'],
+input[type='email'] {
+  border: none;
+  border-bottom: 2px solid rgb(128, 81, 0);
+  padding: 5px 5px;
+  margin: 8px 0;
+}
+input[type="radio"] {
+  width: 20px;
+}
+textarea{
+  border: 2x dotted red;
+}

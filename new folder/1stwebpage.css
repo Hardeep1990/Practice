@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(179, 174, 185);
+    font-family: 'Tahoma';
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  .class
+  {
+    background-color: antiquewhite;
+    margin: 2px 5px;
+    padding: 25px 15px;
+    border: solid blue 2px;
+    text-align: center;
+  }
+  .class:hover{
+    background-color: aqua;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transition: width 2s, height 2s;
+  }
+  img:hover {
+    background-color: green;
+    width: 600px;
+    height: 600px;
+  }
+  a{
+    color: blue;
+    font-size: 20px;
+  }
+  a:hover{
+    color: brown;
+    font-size:40px;
+    transition-duration: 2s;
+  }
+ p{
+    color: black;
+  }
+ p:hover{
+    color: red;
+  }
+h1,h2{
+  color: black;
+  font-size: 150%;
+}
+h1:hover
+{
+  color:brown;
+  font-size: 200%; 
+  transition-duration: 2s;
+  
+}

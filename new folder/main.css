@@ -1,0 +1,12 @@
+h1 {
+  font-size: 100px;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: blueviolet;
+  text-decoration-thickness: 5px;
+}
+p {
+  text-decoration: underline dashed 5px;
+  margin: 35px 0px;
+  color: brown;
+}
