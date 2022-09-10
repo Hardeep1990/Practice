@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Personal portfolio Website</title>
         <link rel="stylesheet" href="personal.css">
+        <script scr="app.js" defer></script>
     </head>
     <body>
         <div class="hero">
@@ -18,11 +19,49 @@
                 </ul>
             </nav>
             <div class="content">
-                <h1> I'm <span>Hardeep</span></h1>
+                <h1> I'm Hardeep </h1>
                 <a target="_blank" href="resume.html" class="btn">Download CV</a>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim sequi  deleniti nesciunt, nihil doloremque, culpa non tempore aut provident architecto perferendis,    quibusdam assumenda iure consequuntur magnam nulla commodi iusto porro.
                 </p>
             </div>
+        </div>
+        <div class="about">
+        <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="hardeep.jpg">
+        </div> 
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem distinctio harum obcaecati, quaerat repellendus architecto dolorum voluptatum voluptate enim libero molestiae tenetur amet vel ad corporis ipsum provident voluptates id.</p>
+    <div class="tab-title">
+<p class="tab-links active-link" onclick="opentab(skills)">Skills</p>
+<p class="tab-links"onclick="opentab(experiance)">Experiance</p>
+<p class="tab-links"onclick="opentab(education)">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+<ul>
+    <li><span>HTML</span><br>Design web pages.</li>
+    <li><span>CSS</span><br>Give style to the webpages.</li>
+    <li><span>JAVAScript</span><br>Make web pages interactive. </li>
+</ul>
+    </div>
+    <div class="tab-contents" id="experiance">
+        <ul>
+            <li><span>School</span><br>Lab Atendent.</li>
+            <li><span>Retail</span><br>Working in a super market.</li>
+           
+        </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2009-2013</span><br>BSc in Information Technology.</li>
+                    <li><span>2014-2016</span><br>MSc in Information Technology</li>
+        
+                </ul>
+                    </div>
+        </div>
+        </div>
         </div>
     </body>
 </html>
