@@ -2,7 +2,7 @@
 body
 {
    
-    background-color: rgb(157, 161, 162);
+    background-color: rgb(227, 233, 235);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ a{
 }
 .hero
 {
-  background:url(asees.jpg);
+  background:url(https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
 
   width: 100%;
   height: 100vh;
@@ -174,4 +174,11 @@ margin: 10px 0;
 .tab-contents.active-tab
 {
     display: block;
+}
+footer
+{
+    text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }
