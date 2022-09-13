@@ -1,16 +1,6 @@
-let tablinks = document.getElementsByClassName("tab-links");
-let tabcontents = document.getElementsByClassName("tab-contents");
-
-function opentab(tabname)
-{
-    for(tablinks of tablinks)
-    {
-        tablinks.classList.remove("active-link");
-    }
-    for(tabcontents of tabcontents)
-    {
-tabcontents.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
-    }
+function changeColor()
+   {
+document.body.style.backgroundColor = 'skyblue';
+ }
+  const btnElement = document.getElementById('btn-skyblue');
+  btnElement.addEventListener('onclick', changeColor);
