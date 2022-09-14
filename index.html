@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Personal portfolio Website</title>
-        <link rel="stylesheet" href="personal.css">
-        <script scr="app.js" defer></script>
-       
-        
-    </head>
-    <body>
-        <div class="hero">
-            <nav>
-                <img src="koru.jpg" class="logo">
-                <ul>
-                    <li><a target="_blank" href="index.html">Home</a></li>
-                    <li><a target="_blank" href="about.html">About</a></li>
-                    <li><a target="_blank" href="form2.html">contact</a></li>
-                    <li><a target="_blank" href="education.html">Education</a></li>
-                    <li><a target="_blank" href="experiance.html">Work Experiance</a></li>
-                </ul>
-            </nav>
-            <div class="content">
-                <h1> I'm Hardeep </h1>
-                <a target="_blank" href="resume.html" class="btn">Download CV</a>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim sequi  deleniti nesciunt, nihil doloremque, culpa non tempore aut provident architecto perferendis,    quibusdam assumenda iure consequuntur magnam nulla commodi iusto porro.
-                </p>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="personal.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <img src="koru.jpg" class="logo">
+            <ul>
+                <li><a target="_blank" href="index.html">Home</a></li>
+                <li><a target="_blank" href="about.html">About</a></li>
+                <li><a target="_blank" href="form2.html">contact</a></li>
+                <li><a target="_blank" href="education.html">Education</a></li>
+                <li><a target="_blank" href="experiance.html">Work Experiance</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1> I'm Hardeep </h1>
+            <a target="_blank" href="resume.html" class="btn">Download CV</a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim sequi deleniti nesciunt, nihil doloremque,
+                culpa non tempore aut provident architecto perferendis, quibusdam assumenda iure consequuntur magnam
+                nulla commodi iusto porro.
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="about">
+
+        <div class="row">
+            <div class="about-col-1">
+                <img src="hardeep.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure qui, maxime sequi nobis, odio corrupti
+                    deserunt eos at praesentium fuga in facilis eligendi, aut nesciunt temporibus illum! Doloremque,
+                    recusandae molestiae?</p>
+                <br>
+                <button onclick="changeColor()">About</button>
+                <br>
+                <div class="container--tabs">
+                    <section class="row">
+                        <nav>
+                        <ul class="nav-tab">
+                            <li onClick="showTabContent(event, 1)"> <a href="#tab-1">Skills</a></li>
+                            <li onClick="showTabContent(event, 2)"> <a href="#tab-2">Education</a></li>
+                            <li onClick="showTabContent(event, 3)"> <a href="#tab-3">Experiance</a></li>
+                        </ul>
+                        </nav>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane active"> 
+                               
+                                <span class="col-md-10">
+                                
+                                    <ul>
+                                        <li><h4>HTML</h4><br>Design web pages.</li>
+                                        <li><h4>CSS</h4><br>Give style to the webpages.</li>
+                                        <li><h4>JAVAScript</h4><br>Make web pages interactive. </li>
+                                    </ul>
+                                </span>
+                            </div> 
+                            <div id="tab-2" class="tab-pane">
+                               
+                                <span class="col-md-10">
+                                    <ul>
+                                        <li><h4>2009-2013</h4><br>BSc in Information Technology.</li>
+                                        <li><h4>2014-2016</h4><br>MSc in Information Technology</li>
+                            
+                                    </ul>
+                                </span>
+                            </div>
+                            <div id="tab-3" class="tab-pane">
+                               
+                                <span class="col-md-10">
+                                    <ul>
+                                        <li><h4>School</h4><br>Lab Attendant.</li>
+                                        <li><h4>Retail</h4><br>Working in a super market.</li>
+                                       
+                                    </ul>
+                                </span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
 
-
-        
-        <div class="about">
-       
-        <div class="row">
-        <div class="about-col-1">
-            <img src ="hardeep.jpg">
-        </div> 
-        <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure qui, maxime sequi nobis, odio corrupti deserunt eos at praesentium fuga in facilis eligendi, aut nesciunt temporibus illum! Doloremque, recusandae molestiae?</p>
-<br>
-<button onclick = changeColor() >About</button>
-        </div>
-        </div>
-
-  <hr> 
-  <footer>
-    <p>Copy right : Hardeep1990/mission2/<br>
- deepmatharu19@gmail.com</p>
-  </footer>
-
- 
+        <hr>
+        <footer>
+            <p>Copy right : Hardeep1990/mission2/<br>
+                deepmatharu19@gmail.com</p>
+        </footer>
 </body>
 </html>
