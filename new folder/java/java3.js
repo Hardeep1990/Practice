@@ -10,4 +10,4 @@
 document.body.style.backgroundColor = 'skyblue';
  }
   const btnElement = document.getElementById('btn-skyblue');
-  btnElement.addEventListener('click', changeColor);
+  btnElement.addEventListener('mouseover', changeColor);
