@@ -8,6 +8,6 @@ divElement.innerText = 'Hello World';
 document.body.appendChild(divElement);
 const imageElement = document.createElement('img');
 
-imageElement.src = '/mission2/new folder/asees.jpg';
+imageElement.src = "asees.jpg";
 
 document.body.appendChild(imageElement);
