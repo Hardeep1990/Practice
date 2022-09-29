@@ -5,7 +5,8 @@ function App() {
   const updateCount = () => setCount(count + 1);
   return (
     <>
-      <h1> We are working with branches</h1>
+      <h1> We are working  branches</h1>
+      <p> new files </p>
       <Counter count={count} updateCount={updateCount} color="orange"></Counter>
       <br />
       <Counter count={count} updateCount={updateCount} color="blue"></Counter>
