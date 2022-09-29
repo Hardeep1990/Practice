@@ -7,6 +7,7 @@ function App() {
     <>
       <h1> We are working  branches</h1>
       <p> new files </p>
+      <button>push me</button>
       <Counter count={count} updateCount={updateCount} color="orange"></Counter>
       <br />
       <Counter count={count} updateCount={updateCount} color="blue"></Counter>
