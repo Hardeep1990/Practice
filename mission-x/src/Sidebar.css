@@ -1,0 +1,6 @@
+.Side_bar {
+    flex: 30%;
+    /* sets flex-basis as 30%*/
+    background-color: skyblue;
+    padding: 20px;
+}

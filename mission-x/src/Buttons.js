@@ -1,6 +1,7 @@
+import './Button.css';
 function Button() {
     return (
-        <div style={{ textAlign: "right" }}>
+        <div style={{ textAlign: "pink" }}>
             <button>BEGINNER</button>
             <button>INTERMEDIATE</button>
             <button>ADVANCED</button>

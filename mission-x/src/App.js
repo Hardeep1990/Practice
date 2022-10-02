@@ -7,9 +7,10 @@ import './App.css';
 
 function App() {
   return (
-    <div class="App">
-      <Nav>This is Navigation bar</Nav>
-      <div style={{ backgroundColor: "pink" }}>
+    <div style={{ backgroundColor: "gray" }} >
+      <div>
+        <Nav>This is Navigation bar</Nav>
+
         <h1 style={{ textAlign: "center" }}>
           PROJECTS
         </h1>
@@ -17,14 +18,17 @@ function App() {
           <b> Welcome to the project library.You can use the Filter on the right to help you search for specific projects.</b>
         </p>
       </div>
-      <div style={{ backgroundColor: "pink" }}>
-        <Button></Button>
-      </div>
-      <div style={{ backgroundColor: "Skyblue" }}>
-        <SideBar>
+      <Button></Button>
+      <div class="container">
+        <div class="Side_bar" style={{ backgroundColor: "Skyblue" }}>
+          <SideBar>
 
-        </SideBar>
-        <Images></Images>
+          </SideBar>
+        </div>
+        <div class="Images">
+          <Images ></Images>
+
+        </div>
       </div>
       <Footer>This is footer</Footer>
     </div>

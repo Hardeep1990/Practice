@@ -1,6 +1,7 @@
+import './Sidebar.css';
 function SideBar() {
     return (
-        <div>
+        <div class="Side_bar">
             <h4>SUBSCRIPTION</h4>
             <label>
                 <input type="checkbox" checked="checked" /> Free

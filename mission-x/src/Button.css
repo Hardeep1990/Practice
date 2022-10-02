@@ -1,0 +1,13 @@
+Button {
+    text-align: left;
+    display: flexbox;
+    padding: 10px;
+    background-color: white;
+    border: 0;
+    color: black;
+}
+
+Button:hover {
+    background-color: skyblue;
+    color: black;
+}
