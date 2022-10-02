@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import Nav from './Navigation-bar';
+import Footer from './Footer';
+import SideBar from './Side-bar';
+import Button from './Buttons';
+import Images from './Images';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div class="App">
+      <Nav>This is Navigation bar</Nav>
+      <div style={{ backgroundColor: "pink" }}>
+        <h1 style={{ textAlign: "center" }}>
+          PROJECTS
+        </h1>
+        <p style={{ textAlign: "center" }}>
+          <b> Welcome to the project library.You can use the Filter on the right to help you search for specific projects.</b>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
+      <div style={{ backgroundColor: "pink" }}>
+        <Button></Button>
+      </div>
+      <div style={{ backgroundColor: "Skyblue" }}>
+        <SideBar>
+
+        </SideBar>
+        <Images></Images>
+      </div>
+      <Footer>This is footer</Footer>
     </div>
   );
 }
