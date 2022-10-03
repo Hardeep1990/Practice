@@ -1,4 +1,4 @@
-import './Button.css';
+
 function Button() {
     return (
         <div style={{ textAlign: "pink" }}>
