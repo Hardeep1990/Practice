@@ -9,13 +9,13 @@
 }
 
 .Side_bar {
-  flex: 30%;
+  flex: 1;
   background-color: skyblue;
   padding: 20px;
 }
 
 .Images {
-  flex: 70%;
+  flex: 3;
   background-color: rgb(185, 130, 171);
   padding: 20px;
 }

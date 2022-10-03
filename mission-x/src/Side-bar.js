@@ -1,4 +1,4 @@
-import './Sidebar.css';
+
 function SideBar() {
     return (
         <div class="Side_bar">

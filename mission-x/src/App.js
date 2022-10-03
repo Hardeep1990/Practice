@@ -21,12 +21,12 @@ function App() {
       <Button></Button>
       <div class="container">
         <div class="Side_bar" style={{ backgroundColor: "Skyblue" }}>
-          <SideBar>
+          <SideBar class="Side_bar">
 
           </SideBar>
         </div>
         <div class="Images">
-          <Images ></Images>
+          <Images class="Images" ></Images>
 
         </div>
       </div>
