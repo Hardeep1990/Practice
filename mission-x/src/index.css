@@ -12,31 +12,20 @@
   flex: 1;
   background-color: skyblue;
   padding: 20px;
+  text-align: center;
 }
 
 .Images {
   flex: 3;
+  margin: 2mm;
   background-color: rgb(185, 130, 171);
   padding: 20px;
 }
 
-Button {
-  display: inline-block;
-  background: white;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  margin: 1px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-
-
-}
-
-Button:hover {
-  background-color: skyblue;
-  color: black;
+img {
+  height: 7cm;
+  width: 7cm;
+  margin: 7mm;
+  border-radius: 5%;
+  border-color: black;
 }
