@@ -2,6 +2,7 @@ import Nav from './components/Navigation-bar';
 import Footer from './components/Footer';
 import SideBar from './components/Side-bar';
 import Button from './components/Buttons';
+import BackButton from './components/BackButton';
 import img1 from './React_imgs/img1.png';
 import img2 from './React_imgs/img2.png';
 import img3 from './React_imgs/img3.png';
@@ -21,9 +22,9 @@ import img15 from './React_imgs/img15.png';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "gray" }} >
+    <div style={{ backgroundColor: "white" }} >
       <div>
-        <Nav></Nav>
+        <Nav style={{ backgroundColor: "white" }}></Nav>
 
         <h1 style={{ textAlign: "center" }}>
           PROJECTS
@@ -34,9 +35,9 @@ function App() {
         <br />
         <Button></Button>
       </div>
-
+<hr/>
       <div className='container'>
-        <div className="Side_bar" style={{ backgroundColor: "Skyblue" }}>
+        <div className="Side_bar" style={{ backgroundColor: "white" }}>
           <SideBar class="Side_bar">
 
           </SideBar>
@@ -68,6 +69,9 @@ function App() {
 
         </div>
       </div>
+      <div><BackButton/></div>
+      <br/>
+      <hr/>
       <div><Footer></Footer></div>
     </div>
   );

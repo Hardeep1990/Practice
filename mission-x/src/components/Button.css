@@ -1,30 +1,32 @@
 Button {
-    display: inline-block;
-    background: white;
-    color: black;
-    border: none;
-    padding: 5px 10px;
-    margin: 1px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: inherit;
-
-
-
-
-}
-
-Button:hover {
-    background-color: skyblue;
-    color: black;
-}
-
-.btn {
-    margin-left: 85%;
-}
-
-.btn_btn {
-    margin-left: 30%;
-}
+    display: flexbox;
+     background: white;
+     color: black;
+     border-color: black ;
+ border-radius: 2%;
+     padding: 5px 10px;
+     margin: 1px;
+     border-radius: 5px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 15px;
+     font-family: inherit;
+ 
+ 
+ 
+ 
+ }
+ 
+ Button:hover {
+     background-color: skyblue;
+     color: black;
+ }
+ .Button_Container {
+    
+     display: flex;
+     margin-left: 12cm;
+     margin-right: 3cm;
+     justify-content:space-between;
+  
+    
+ }

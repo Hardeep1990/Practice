@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div style={{ color: "black", background: "red" }}>
+        <div>
             this is footer
         </div>
     );
