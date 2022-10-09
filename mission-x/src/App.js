@@ -22,59 +22,87 @@ import img15 from './React_imgs/img15.png';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "white" }} >
-      <div>
-        <Nav style={{ backgroundColor: "white" }}></Nav>
+    <div>
+    <div className='main'>
+        <br/>
+        <div>
+            <Nav />
 
-        <h1 style={{ textAlign: "center" }}>
-          PROJECTS
-        </h1>
-        <p style={{ textAlign: "center" }}>
-          <b> Welcome to the project library.You can use the Filter on the right to help you search for specific projects.</b>
-        </p>
-        <br />
-        <Button></Button>
-      </div>
-<hr/>
-      <div className='container'>
-        <div className="Side_bar" style={{ backgroundColor: "white" }}>
-          <SideBar class="Side_bar">
+            <h1>
+                PROJECTS
+            </h1>
+            <p style={{ textAlign: "center" }}>
+               Welcome to the project library.You can use the Filter on the right to help you search for specific projects.
+            </p>
+            <br/>
+</div>
+            <Button></Button>
 
-          </SideBar>
+        <div className='container'>
+            <div className="Side_bar" style={{ backgroundColor: "white" }}>
+                <br/>
+                <SideBar>
+
+                </SideBar>
+            </div>
+          
+            <div className="Images">
+               <div> 
+                    <img src={img1} alt="prj1"></img>
+                    <p>Introduction<br/>BEGINNER | Animation</p> 
+               </div>
+
+               <div> <img src={img2} alt="prj2"></img>
+                <p>My Birthday<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img3} alt="prj3"></img>
+                <p>10 Block Challenge<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img4} alt="prj4"></img>
+                <p>Build A Band<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img5} alt="prj5"></img>
+                <p>The Bear And The Monkey<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img6} alt="prj6"></img>
+                <p>Debugging<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img7} alt="prj7"></img>
+                <p>About Me<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img8} alt="prj8"></img>
+                <p>I Am Here!<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img9} alt="prj9"></img>
+                <p>Funny Faces<br/>BEGINNER | Animation</p> </div>
+
+               <div> <img src={img10} alt="prj10"></img>
+                <p>It Tickels!<br/>BEGINNER | Animation</p> </div>
+
+                <div> <img src={img11} alt="prj11"></img>
+                <p>Penguine In A Desert<br/>BEGINNER | Animation</p> </div>
+
+                <div>  <img src={img12} alt="prj12"></img>
+                <p>Time Travel<br/>BEGINNER | Animation</p></div> 
+
+                <div> <img src={img13} alt="prj13"></img>
+                <p>Birthday Card<br/>BEGINNER | Animation</p> </div>
+
+                <div>  <img src={img14} alt="prj14"></img>
+                <p>The Lion and The Mouse Part 1<br/>BEGINNER | Animation</p> </div>
+
+                <div> <img src={img15} alt="prj15"></img>
+                <p>The Lion and The Mouse Part 2<br/>BEGINNER | Animation</p> </div>
+
+            </div>
         </div>
-        <div className="Images">
-
-          <img src={img1} alt="prj1"></img>
-
-
-          <img src={img2} alt="prj2"></img>
-
-
-          <img src={img3} alt="prj3"></img>
-
-          <img src={img4} alt="prj4"></img>
-
-          <img src={img5} alt="prj5"></img>
-
-          <img src={img6} alt="prj6"></img>
-          <img src={img7} alt="prj7"></img>
-          <img src={img8} alt="prj8"></img>
-          <img src={img9} alt="prj9"></img>
-          <img src={img10} alt="prj10"></img>
-          <img src={img11} alt="prj11"></img>
-          <img src={img12} alt="prj12"></img>
-          <img src={img13} alt="prj13"></img>
-          <img src={img14} alt="prj14"></img>
-          <img src={img15} alt="prj15"></img>
-
-        </div>
-      </div>
-      <div><BackButton/></div>
-      <br/>
-      <hr/>
-      <div><Footer></Footer></div>
+        <div ><BackButton/></div>
+        <br/>
+       </div>
+       <div>
+       <Footer />
+       </div>
     </div>
-  );
+);
 }
-
 export default App;

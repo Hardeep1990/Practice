@@ -1,5 +1,11 @@
+
+.main{
+  font-family: "adobe-clean", sans-serif;
+  position:relative;
+  display:block;
+}
 .container {
-    
+
   display: flex;
   flex-wrap: wrap;
   margin-top: 1mm;
@@ -10,11 +16,13 @@
 }
 
 .Side_bar {
+  position:relative;
   flex: 1;
   padding: 20px;
   text-align: left;
 }
 h4{
+
   text-decoration: underline;
 }
 
@@ -32,4 +40,9 @@ img {
   margin: 7mm;
   border-radius: 5%;
   border-color: black;
+}
+
+h1{
+  text-align: left;
+  margin-left: 11cm;
 }
